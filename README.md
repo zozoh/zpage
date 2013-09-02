@@ -94,6 +94,10 @@ zpage 假想你的工作目录由如下结构组成
 	#
 	#   .*           : normal
 	#
+	# 关键字 "none" 表示不使用任何模板，比如:
+	#
+	#   /abc.html     : none
+	#
 	zpage-tmpl-setup:
 	/index.html  : normal
 	/page/.*     : black.myblank
